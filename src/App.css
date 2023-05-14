@@ -14,17 +14,14 @@ a{
     text-decoration: none;
 }
 
-.gardient__bg
-{
-
-    /* global 90%+ browsers support */
+.gradient__bg{
     background:conic-gradient(from 90deg at 73% 25%, rgba(255, 164, 56, 1) 0%, rgba(255, 212, 84, 1) 50%, rgba(255, 164, 56, 1) 100%);
 
 }
 
 
-.gardient__text{
-    background: avr(--gradient-text);
+.gradient__text{
+    background: var(--gradient-text);
     background-clip: text;
     -webkit-background-clop: text;
     -webkit-text-fill-color: transparent;
