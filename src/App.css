@@ -15,7 +15,7 @@ a{
 }
 
 .gradient__bg{
-    background:conic-gradient(from 90deg at 73% 25%, rgba(255, 164, 56, 1) 0%, rgba(255, 212, 84, 1) 50%, rgba(255, 164, 56, 1) 100%);
+    background-image: radial-gradient(circle, #d16ba5, #ee768f, #fb8b7a, #faa66b, #edc36a, #dbd372, #c7e283, #b0ef9c, #9af4b0, #84f7c6, #6ffadc, #5ffbf1);
 
 }
 
