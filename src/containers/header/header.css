@@ -45,7 +45,9 @@
     font-family: var(--font-family);
     font-size: 20px;
     line-height: 27px;
-    background: var(--color-footer);
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
     border: 2px solid var(--color-foter);
     padding: 0 1rem;
     outline: none;
@@ -62,12 +64,14 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 27px;
-    background: #FF4820;
+    background: #FB855F;
     color: #FFFFFF;
     cursor: pointer;
     outline: none;
     padding: 0 1rem;
     border: none;
+    z-index: 2;
+    box-shadow: 5px 0 10px 1px rgba(0, 0, 0, 0.25);
 
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;

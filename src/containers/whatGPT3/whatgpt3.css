@@ -3,7 +3,11 @@
     flex-direction: column;
 
     padding: 2rem;
-    background-image: radial-gradient(circle, #d16ba5, #ee768f, #fb8b7a, #faa66b, #edc36a, #dbd372, #c7e283, #b0ef9c, #9af4b0, #84f7c6, #6ffadc, #5ffbf1);
+    border: #fff;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
 }
 
 .gpt3__whatgpt3-feature {
@@ -39,7 +43,7 @@
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16;
-    line-height: 30;
+    line-height: 30px;
     color: var(--color-subtext);
     cursor: pointer;
 }
