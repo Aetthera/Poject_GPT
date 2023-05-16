@@ -6,7 +6,7 @@
   --gradient-text: linear-gradient(to left bottom, #aa2370, #a02d7b, #943685, #863e8c, #784592, #6653a1, #4e60ad, #2e6cb4, #0081be, #0094bd, #00a4b5, #1bb3a9);
   --gradient-bar: linear-gradient(to left bottom, #aa2370, #a02d7b, #943685, #863e8c, #784592, #6653a1, #4e60ad, #2e6cb4, #0081be, #0094bd, #00a4b5, #1bb3a9);
   
-  --color-bg: #040C18;
+  --color-bg: linear-gradient(to left, #5ffbf1, #71f7d7, #88f3be, #9feca5, #b6e58f, #b6e58f, #b6e58f, #b6e58f, #9feca5, #88f3be, #71f7d7, #5ffbf1);
   --color-footer : #031B34;
   --color-blog: #042c54;
   --color-text: #644D96;

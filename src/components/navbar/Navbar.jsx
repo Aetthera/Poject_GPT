@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import logo from '../../assets/icon.png';
-import  './navbar.css';
+import './navbar.css';
 
-const Menu =  () => (
+const Menu = () => (
   <>
   <p><a href="home">Home</a></p>
   <p><a href="wgpt3">What is GPT-3</a></p>

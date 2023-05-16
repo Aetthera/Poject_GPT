@@ -18,8 +18,8 @@ align-items: center;
 }
 
 .gpt3__navbar-links_logo img {
-    width: 62px;
-    height: 16px;
+    width: 120px;
+    height: 35px;
 }
 
 .gpt3__navbar-links_container {
@@ -99,7 +99,7 @@ margin: 1rem 0;
 }
 
 @media screen and (max-width: 1050px) {
-    .gpt3__navbar-menu_container{
+    .gpt3__navbar-links_container {
         display: none;
     }
 
